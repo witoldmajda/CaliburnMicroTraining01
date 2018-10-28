@@ -9,7 +9,7 @@
     <DockPanel>
         <TabControl x:Name="Items">
             <TabItem Header="PageOneView">
-                
+                <TextBlock Text="{Binding DisplayName}" />
             </TabItem>
             <TabItem Header="PageTwoView">
 
