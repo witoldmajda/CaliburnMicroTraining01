@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CaliburnMicroTraining01
+namespace CaliburnMicroTraining01.Views
 {
     /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
+    /// Logika interakcji dla klasy PageOneView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PageOneView : UserControl
     {
-        public MainWindow()
+        public PageOneView()
         {
             InitializeComponent();
         }
